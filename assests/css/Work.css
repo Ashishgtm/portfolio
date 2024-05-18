@@ -1,0 +1,275 @@
+.all-work{
+    color: rgb(245, 234, 214);
+    background-color: black;
+    cursor: none;
+    scroll-behavior: smooth;
+  }
+  
+  /* Cursor */
+  
+  .custom-cursor {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    pointer-events: none; /* Ensure the circle doesn't interfere with mouse events */
+    z-index: 9999; /* Ensure it's on top of other elements */
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Create a circle */
+    background-color: transparent; /* Make the circle transparent */
+    border: 2px solid rgb(253, 127, 81); /* Add a border */
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Create a circle */
+    background-color: rgb(253, 127, 81); /* Set the color to orange */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the dot */
+}
+
+
+
+
+  .image12AA{
+    float: right;
+    width: 30%;
+    
+  }
+  .experience1{
+   
+    color: rgb(245, 234, 214);
+    margin-left: 15%;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+    .image-lefttext1{
+      font-size: 60px;
+     margin-left: 15%;
+     margin-top: 0%;
+     font-weight: bold;
+      color: rgb(245, 234, 214);
+     
+    }
+
+    
+
+    .video-background {
+      position: relative;
+      width: 100%;
+      height: 90vh; /* Adjust the height as needed */
+      overflow: hidden;
+    }
+    
+    .video-background video {
+      position: absolute;
+      top: 3%;
+      left: 0;
+      
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .content-overlay {
+      position: absolute;
+      margin-top: 20%;
+      margin-left: 37%;
+      transform: translate(-50%, -50%);
+      color: white;
+      z-index: 1; /* Ensure the overlay is above the video */
+    }
+    
+
+
+    .two-words1{
+      color: rgb(253, 127, 81);
+    }
+    .clients{
+   margin-top: 6%;
+      color: rgb(245, 234, 214);
+      margin-left: 15%;
+      letter-spacing: 0.2cm;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .clienttext{
+      font-size: 37px;
+     margin-left: 15%;
+     margin-top: 1%;
+     margin-bottom: 2%;
+     font-weight: bold;
+      color: rgb(245, 234, 214);
+     
+    }
+
+
+    /* Clients */
+  
+  .two-words1{
+    color: rgb(253, 127, 81);
+  }
+  
+  .iconfacebook, .iconinsta, .iconyoutube, .iconlinkedin{
+    position: fixed;
+  
+  }
+ 
+ 
+ 
+  .horiline{
+    margin-top: 1%;
+   margin-left: 6%;
+   margin-right: 6%;
+   margin-bottom: 0;
+  }
+  .insideline123{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 0;
+
+  }
+  .insideline1123{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+  .insideline1234{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+  .insideline1345{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+  .insideline1456{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+
+
+  /* History */
+  .history{
+    margin-top: 4%;
+       color: rgb(245, 234, 214);
+       margin-left: 15%;
+       letter-spacing: 0.2cm;
+       text-transform: uppercase;
+       font-size: 15px;
+       font-weight: bold;
+     }
+     .div-history{
+      background-color: rgba(44, 36, 36, 0.651);
+      
+     }
+     .horiline2{
+   border: 1px solid rgba(83, 83, 85, 0.726);
+     margin-left: 6%;
+     margin-right: 6%;
+     margin-bottom: 0;
+    }
+    .historytext{
+      font-size: 37px;
+     margin-left: 15%;
+     margin-top: 1%;
+     margin-bottom: 2%;
+     font-weight: bold;
+      color: rgb(245, 234, 214);
+     
+    }
+    .insidehistory{
+      font-size: 50px;
+      font-weight: bold;
+      margin-left: 15%;
+      margin-top: 0;
+      text-transform: uppercase;
+  
+    }
+    .insidenow{
+      font-size: 50px;
+      font-weight: bold;
+    
+       float: inline-end;
+       margin-right: 40%;
+    
+     
+    }
+    .fantasy{
+      font-size: 20px;
+      float: inline-end;
+      margin-right: 46%;
+      font-weight: bold;
+    }
+
+
+/* Responsive */
+  @media only screen and (max-width:767px) 
+  {
+    .all-work{
+      overflow-x:hidden;
+          }
+          .image12AA{
+            margin-top: 1%;
+            width: 40%;
+        
+          }
+          .experience1{
+            margin-top: 12%;
+          margin-left: 15%;
+            font-size: 10px; 
+          }
+          .image-lefttext1{
+            font-size: 30px;
+           margin-left: 15%;
+           margin-top: 0%;
+           font-weight: bold;
+            color: rgb(245, 234, 214);
+           
+          }
+          .clients{
+             font-size: 10px;
+               
+             }
+             .clienttext{
+              font-size: 30px;
+            }
+            
+            .insideline123{
+              font-size: 50px;
+              font-weight: bold;
+              margin-left: 3%;
+              margin-top: 0;
+          
+            }
+        
+}

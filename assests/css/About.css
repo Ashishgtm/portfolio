@@ -1,0 +1,217 @@
+
+.all-about{
+    color: rgb(245, 234, 214);
+    background-color: black;
+  height: 105vh;
+  scroll-behavior: smooth;
+  cursor: none;
+   
+  }
+  /* Cursor */
+ 
+  .custom-cursor {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    pointer-events: none; /* Ensure the circle doesn't interfere with mouse events */
+    z-index: 9999; /* Ensure it's on top of other elements */
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Create a circle */
+    background-color: transparent; /* Make the circle transparent */
+    border: 2px solid rgb(253, 127, 81); /* Add a border */
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Create a circle */
+    background-color: rgb(253, 127, 81); /* Set the color to orange */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the dot */
+}
+
+
+
+
+  .aboutme{
+  
+    color: rgb(245, 234, 214);
+    margin-left: 15%;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .whatcan{
+    color: rgb(245, 234, 214);
+    
+    margin-left: 15%;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .description{
+    font-size: 70px;
+    margin-left: 15%;
+    margin-right: 18%;
+    font-weight: bold;
+    color: rgb(245, 234, 214);
+
+
+  }
+  .two-words{
+    color: rgb(253, 127, 81);
+  }
+  .iconfacebook, .iconinsta, .iconyoutube, .iconlinkedin{
+    position: fixed;
+  
+  }
+  .aboutme2{
+   
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    font-size: 50px;
+    color: rgb(245, 234, 214);
+    font-weight: bold;
+
+
+  }
+  .aboutme3{
+   
+    position: absolute;
+    top: 86%;
+    left: 55%;
+    font-size: 20px;
+    color: rgb(245, 234, 214);
+    font-weight: bold;
+
+
+   
+  }
+ 
+  .horiline{
+   margin-left: 6%;
+   margin-right: 6%;
+   margin-bottom: 0;
+  }
+  .insideline1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 0;
+
+  }
+  .insideline11{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+  .insideline12{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+  .insideline13{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+  .insideline14{
+    font-size: 10px;
+    font-weight: bold;
+   float: right;
+     margin-top: 3%;
+     margin-right: 4%;
+    font-size: 15px;
+   
+  }
+   /* Responsive */
+
+   @media only screen and (max-width:767px) {
+    .all-about{
+      overflow-x:hidden;
+          }
+    .aboutme{
+      margin-top: 12%;
+      font-size: 10px;
+     
+    }
+    .whatcan{
+      margin-top: 0%;
+      font-size: 10px;
+     
+    }
+    .description{
+      font-size: 40px;
+      margin-right: 5%;
+
+    }
+    
+  .image-one{
+ 
+    margin-left: 1rem;
+    margin-top: 0rem;
+    height:60%;
+    width: 400px;
+    
+  }
+  .aboutme2{
+   
+    
+    top: 68%;
+    left: 55%;
+    font-size: 50px;
+  
+
+
+  }
+  .aboutme3{
+   
+    
+    top: 86%;
+    left: 55%;
+    font-size: 20px;
+    
+
+
+   
+  }
+
+  
+  
+  .insideline1{
+    font-size: 50px;
+    margin-left: 1%;
+    margin-top: 0;
+
+  }
+  .insideline11,.insideline12,.insideline13,.insideline14{
+   display: none;
+   
+  }
+ .horiline{
+  margin-left: 3%;
+  margin-right: 3%;
+ }
+  
+  } 

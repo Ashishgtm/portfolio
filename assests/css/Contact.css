@@ -1,0 +1,35 @@
+.all-contact{
+    color: rgb(245, 234, 214);
+    background-color: black;
+    height: 100vh;
+    cursor: none;
+   
+  }
+    /* Cursor */
+    
+    .custom-cursor {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      pointer-events: none; /* Ensure the circle doesn't interfere with mouse events */
+      z-index: 9999; /* Ensure it's on top of other elements */
+  }
+
+  .circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; /* Create a circle */
+      background-color: transparent; /* Make the circle transparent */
+      border: 2px solid rgb(253, 127, 81); /* Add a border */
+  }
+
+  .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; /* Create a circle */
+      background-color: rgb(253, 127, 81); /* Set the color to orange */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Center the dot */
+  }

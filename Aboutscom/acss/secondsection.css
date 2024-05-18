@@ -1,0 +1,59 @@
+
+.two-words{
+    color: rgb(253, 127, 81);
+  }
+  .image-one{
+ 
+    margin-left: 12rem;
+    margin-top: 3rem;
+    height:800px;
+    width: 600px;
+    
+  }
+  
+  /* .aboutme2{
+  
+    top: 68%;
+    left: 55%;
+    font-size: 50px;
+    color: rgb(245, 234, 214);
+    font-weight: bold;
+
+
+  }
+  .aboutme3{
+   
+    top: 86%;
+    left: 55%;
+    right: 5%;
+    font-size: 20px;
+    color: rgb(245, 234, 214);
+    font-weight: bold;
+
+
+   
+  } */
+  
+  @media only screen and (max-width:767px) {
+    
+  .image-one{
+ 
+    margin-left: 12rem;
+    margin-top: 3rem;
+    height:400px;
+    width: 300px;
+    
+  }
+  
+  .aboutme2{
+
+    top: 18%;
+    left: 55%;
+    font-size: 50px;
+    color: rgb(245, 234, 214);
+    font-weight: bold;
+
+
+  }
+
+  }
